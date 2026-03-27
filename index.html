@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>API Gallery Hub 控制台</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #1a1a2e; color: white; text-align: center; padding: 50px; }
+        .btn-group { display: flex; justify-content: center; gap: 20px; margin-top: 30px; }
+        .btn { padding: 15px 30px; font-size: 18px; border: none; border-radius: 10px; cursor: pointer; transition: 0.3s; }
+        .btn-a { background: #e94560; color: white; }
+        .btn-b { background: #0f3460; color: white; }
+        .btn-c { background: #22d1ee; color: #1a1a2e; }
+        .btn:hover { transform: scale(1.1); opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <h1>API Gallery Hub</h1>
+    <p>點擊按鈕即時抓取，自動存進本機資料庫</p>
+    <div class="btn-group">
+        <a href="/fetch_weather"><button class="btn btn-a">按鈕A: 天氣資料</button></a>
+        <a href="/fetch_github"><button class="btn btn-b">按鈕B: GitHub 資料</button></a>
+        <a href="/view"><button class="btn btn-c">按鈕C: 查看資料庫</button></a>
+    </div>
+</body>
+</html>
